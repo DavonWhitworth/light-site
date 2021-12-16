@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(to right, #29358f, #ff9d2e);
+}
+
+
+
+/*button styles*/
+button{
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-width: 3px;
+    border-color: grey;
+    margin: 3px;
+    border-style: solid;
+   
+    
+}
+
+/*button hover*/
+button:hover{
+   cursor: pointer; 
+}
+
+button.red{
+    background-color: red;
+    /*color: #54de74;*/
+    color: white;
+}
+
+button.green{
+    background-color: green;
+    color: white;
+}
+
+button.blue{
+    background-color: blue;
+    color: white;
+}
+button.yellow{
+    background-color: yellow;
+}
+button.purple{
+    background-color: purple;
+    color: white;
+}
+button.custom{
+    background-color: white;         /*what background */
+    color: white;
+}
+button.reset{
+    background: linear-gradient(to right, #29358f, #ff9d2e);
+    color: white;
+}
+button.info{
+    background-color: white;
+    color: black;
+}
+button.orange{
+    background-color: orange;
+}
+
