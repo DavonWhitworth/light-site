@@ -6,14 +6,14 @@ body{
 
 /*button styles*/
 button{
-    padding: 1rem;
-    border-radius: 50px;
-    font-size: 1rem;
-    font-weight: bold;
+    float: left;
+    border-radius: 30px;
     border-width: 3px;
     border-color: grey;
-    margin: 3px;
+    margin: 5px;
     border-style: solid;
+    width: 60px;
+    height: 60px;
    
     
 }
@@ -43,10 +43,6 @@ button.yellow{
 }
 button.purple{
     background-color: purple;
-    color: white;
-}
-button.custom{
-    background-color: white;         /*what background */
     color: white;
 }
 button.reset{
