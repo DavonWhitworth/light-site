@@ -18,7 +18,7 @@ export const Modal = ({ setShowModal }) => {
             <div className="modal">
                 <h2>Light Site</h2>
                 <br /><br />
-                <p>This website can be used to illuminate your immidiate enviroment using your screen, with the
+                <p>This website can be used to illuminate your immediate enviroment using your screen, with the
                     color of your choosing! Made by <a href="https://www.instagram.com/davon_whitworth/"
                         target="_blank">Davon Whitworth</a>, inspired by <a href="https://keylit.app/"
                             target="_blank">Keylit</a></p>
