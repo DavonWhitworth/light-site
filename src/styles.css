@@ -1,8 +1,11 @@
-body{
-    background: linear-gradient(to right, #29358f, #ff9d2e);
+* {
+    font-family: "San Francisco", sans-serif;
 }
 
 
+body{
+    background: linear-gradient(to right, #29358f, #ff9d2e);
+}
 
 /*button styles*/
 button{
@@ -74,19 +77,20 @@ button.orange{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
   }
   .container .modal {
     z-index: 1;
     width: 400px;
     height: 250px;
-    background: white;
+    background: rgb(210, 210, 210);
     display: flex;
-    align-items: center;
-    justify-content: center;
+   /* align-items: center;
+    justify-content: center;*/
     border-radius: 5px;
     position: relative;
     animation: animate 0.3s;
+    position: relative;
   }
   .modal button {
     position: absolute;
@@ -100,6 +104,18 @@ button.orange{
     outline: none;
     border-radius: 2px;
     cursor: pointer;
+  }
+  .container .modal h2{
+    justify-content: center;
+    position: absolute;
+    left: 130px;
+    top: 10px;
+  }
+  .container .modal p{
+      width: 250px;
+      position: absolute;
+      top: 90px;
+      left: 80px;
   }
   @keyframes animate {
     from {

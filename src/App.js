@@ -1,6 +1,6 @@
 import "./styles.css"
 import "./Popup.js"
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Modal } from "./Popup";
 
 function App() {
@@ -50,24 +50,6 @@ function App() {
   function handlePurple() {
     document.body.style.background = "purple";
   }
-  function handleInfo() {
-    console.log("info triggered");
-  }
-
-
-  //info drop down
-  /*
-    useEffect(() =>
-      console.log("fasdf")
-      , [showing])
-  
-  */
-  /*  
-    info display: insta, "use this to light your enviroment 
-    with you sceen..", 
-    "beginner project made by davon whitworth" (set name as
-       hyperlink to open insta on new window)*/
-
 }
 
 export default App;
