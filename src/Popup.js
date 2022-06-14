@@ -20,7 +20,11 @@ export const Modal = ({ setShowModal }) => {
         <p>
           This website can be used to illuminate your immediate enviroment using
           your screen, with the color of your choosing! Made by{" "}
-          <a href="https://davon-whitworth.com/" target="_blank">
+          <a
+            href="https://davon-whitworth.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Davon Whitworth
           </a>
         </p>
